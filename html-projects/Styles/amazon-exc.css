@@ -1,0 +1,53 @@
+.Title {
+    font-size: 25px;
+    font-weight: Bold;
+}
+.cost {
+    color: rgb(0, 118, 9);
+    font-weight: bold;
+
+}
+.cart {
+    background-color: rgb(254, 220, 52);
+    border: none;
+    border-radius: 18px;
+    padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.cart:hover {
+    background-color: rgb(238, 202, 24);   
+}
+.cart:active {
+    opacity: 0.6;
+}
+.buy {
+    background-color: rgb(255, 164, 28);
+    border: none;
+    border-radius: 18px;
+    padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.buy:hover {
+background-color: rgb(211, 135, 20);
+}
+.buy:active {
+    opacity: 0.6;
+}
+.link {
+    color: rgb(0, 113, 133)
+    cursor: pointer;
+    transition: color 0.15s
+}
+.link:hover {
+    color: rgb(208, 118, 21)
+}

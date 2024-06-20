@@ -1,0 +1,192 @@
+* {
+    font-family: "Lato", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#go-up {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    color: #A5A68F;
+}
+
+
+body {
+    background-color: #F4EEED;
+    margin: 0;
+   }
+
+   #Home {
+    background-color: #F2DBD5;
+    height: 600px;
+    margin-bottom: 70px;
+   }
+
+   .container {
+    margin: 0px 80px 100px 80px !important;
+    width: 1280px !important;
+   }
+
+   .logo-container {
+    margin-right: 5px;
+    float: inline-start;
+    margin-top: 10px;
+    margin-left: 10px;
+   }
+
+   .flex-container.nav.bar {
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin-bottom: 100px;
+   }
+
+   .button {
+    border: none;
+    background-color:#F2DBD5;
+    cursor: pointer;
+    color: #D9B2A9;
+    font-size: larger;
+    margin-left: 80px;
+   }
+
+   .grid {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 1000px;
+    height: 300px;
+   }
+
+   .grid-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   }
+
+   h1, h5, p, li {
+    color: #A5A68F;
+   }
+
+   h1 {
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 0px;
+   }
+
+   h5 {
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 0px;
+   }
+
+   .profile {
+    grid-row: span 2;
+    width: 400px;
+    border-radius: 10px;
+   }
+
+   h2, .title {
+    color: #D9B2A9;
+   }
+
+   h2 {
+    padding-bottom: 20px;
+    text-align: center;
+   }
+
+   .flex-container.about-me {
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .text {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 300;
+    width: 450px;
+    margin: 0;
+   }
+
+   ul {
+    list-style-type: disc;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 300;
+    padding-bottom: 40px;
+   }
+
+   .container.flexbox {
+    display: flex;
+    justify-content: space-around;
+   }
+
+   #My-Skills {
+    margin-bottom: 70px;
+   }
+
+   .section-description {
+    text-align: center;
+   }
+
+   .card {
+    border: solid 1px #A5A68F;
+    padding: 10px;
+   }
+
+   .work-gallery, .photoshop-gallery {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+   }
+
+   .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+   }
+
+   .project {
+    width: 100%;
+    object-fit: cover;
+   }
+
+   .card-description {
+    margin-top: 10px;
+    text-align: center;
+   }
+
+   a {
+    text-decoration: none;
+    color: #D9B2A9;
+    font-size: larger;
+   }
+
+footer {
+    background-color: #F2DBD5;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.copyright {
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+   

@@ -1,0 +1,79 @@
+.Tahoma {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Arial-deals {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.sales {
+    font-family: arial;
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.Title {
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.level {
+    font-family: Verdana;
+    font-size: 18px;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.description {
+    font-family: Verdana;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 320px;
+}
+button {
+    background-color: rgb(60, 148, 57);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 15px;
+}
+.Apple-title {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.Apple-at-work {
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.learn {
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(68, 68, 255);
+}
+.learn:hover {
+    cursor: pointer;
+}

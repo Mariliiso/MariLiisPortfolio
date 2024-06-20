@@ -1,0 +1,48 @@
+.pagination {
+    font-size: large;
+}
+.back,
+.next {
+    padding: 8px 7px 8px 7px;
+    margin-right: 5px;
+}
+.pages {
+    border: none;
+    background-color: white;
+    text-decoration-line: underline;
+}
+
+.shadow {
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    box-shadow: 05px 05px 10px rgba(0, 0, 0, 0.15);
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+.shadow:active {
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    padding-left: 5px 10px 5px 10px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 6px;
+    box-shadow: none
+
+}
+.stretch {
+    cursor:pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 3px 8px 3px 8px;
+    transition:padding 0.5s;
+}
+.stretch:hover {
+    cursor:pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 17px 8px 17px;
+}

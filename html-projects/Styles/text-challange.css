@@ -1,0 +1,89 @@
+p {
+font-family: arial;
+}
+
+.new {
+    color: orange;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.Macbook {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.Price {
+    text-align: center;
+    margin-bottom: 0;
+}
+.buy {
+    background-color: rgb(73, 113, 255);
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.button {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 100px;
+}
+.username {
+font-weight: bold;
+font-size: 15px;
+margin-bottom: 0;
+}
+.tweet {
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.usertag {
+    color: gray;
+    font-weight: lighter;
+}
+.last {
+    margin-bottom: 100px;
+}
+.other-usertag {
+    color: rgb(118, 163, 241);
+    cursor: pointer;
+}
+.stock-price {
+    font-size: 30px;
+}
+.currency {
+    color: gray;
+}
+.stock {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.today {
+    color: green;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.last-price {
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.later {
+    color: gray;
+}
+.procentage {
+    color: red;
+}
