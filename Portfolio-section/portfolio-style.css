@@ -1,0 +1,110 @@
+* {
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-color: #F4EEED;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#go-up {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    color: #A5A68F;
+}
+
+#Home {
+    background-color: #F2DBD5;
+    height: 350px;
+    margin-bottom: 70px;
+}
+    
+.container {
+    margin: 0px 80px 100px 80px !important;
+    width: 1280px !important;
+}
+    
+.logo-container {
+    margin-right: 5px;
+    float: inline-start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+    
+.flex-container.nav.bar {
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+    
+.button {
+    border: none;
+    background-color:#F2DBD5;
+    cursor: pointer;
+    color: #D9B2A9;
+    font-size: larger;
+    margin-left: 80px;
+}
+
+.main, p {
+    text-align: center;
+    color: #A5A68F;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+}
+
+.canva-gallery {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.project {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card {
+    border: solid 1px #A5A68F;
+    padding: 10px;
+}
+
+.card-description {
+    margin-top: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #F2DBD5;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.copyright {
+    padding-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
