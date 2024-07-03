@@ -26,8 +26,7 @@ html {
 }
     
 .container {
-    margin: 0px 80px 100px 80px !important;
-    width: 1280px !important;
+    width: 100%;
 }
     
 .logo-container {
@@ -103,8 +102,18 @@ footer {
     padding-top: 20px;
 }
 
-@media (max-width: 600px) {
+@media only screen and  (max-width: 600px) {
+
     .container {
         width: 100%;
+    }
+
+    #Home {
+        height: 500px;
+    }
+
+    .canva-gallery {
+        display: flex;
+        flex-direction: column;
     }
 }
